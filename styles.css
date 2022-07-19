@@ -47,16 +47,16 @@ body {
 
 .red {
   background-color: red;
-  background-image: url("public/images/charmander.png");
+  background-image: url("./images/charmander.png");
   background-position: center;
   background-size: contain;
   background-repeat: no-repeat;
   border-color: #ff9441;
 }
-
 .green {
+
   background-color: green;
-  background-image: url("public/images/bulbasaur.png");
+  background-image: url("./images/bulbasaur.png");
   background-position: center;
   background-size: contain;
   background-repeat: no-repeat;
@@ -65,7 +65,7 @@ body {
 
 .blue {
   background-color: blue;
-  background-image: url("public/images/squirtle.png");
+  background-image: url("./images/squirtle.png");
   background-position: center;
   background-size: contain;
   background-repeat: no-repeat;
@@ -74,7 +74,7 @@ body {
 
 .yellow {
   background-color: yellow;
-  background-image: url("public/images/pichu.png");
+  background-image: url("./images/pichu.png");
   background-position: center;
   background-size: contain;
   background-repeat: no-repeat;
