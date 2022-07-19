@@ -99,42 +99,42 @@ function evolvePokemon(pokemon) {
   switch (pokemon) {
     case 'charmander':
       $("#red").switchClass("charmander", "charmeleon", 1000);
-      $("#red").css("background-image", "url(./images/charmeleon.png)");
+      $("#red").css("background-image", "url(public/images/charmeleon.png)");
       buttonPokemon[0] = "charmeleon";
       break;
     case 'charmeleon':
       $("#red").switchClass("charmeleon", "charizard", 1000);
-      $("#red").css("background-image", "url(./images/charizard.png)");
+      $("#red").css("background-image", "url(public/images/charizard.png)");
       buttonPokemon[0] = "charizard";
       break;
     case 'squirtle':
       $("#blue").switchClass("squirtle", "wartortle", 1000);
-      $("#blue").css("background-image", "url(./images/wartortle.png)");
+      $("#blue").css("background-image", "url(public/images/wartortle.png)");
       buttonPokemon[1] = "wartortle";
       break;
     case 'wartortle':
       $("#blue").switchClass("wartotle", "blastoise", 1000);
-      $("#blue").css("background-image", "url(./images/blastoise.png)");
+      $("#blue").css("background-image", "url(public/images/blastoise.png)");
       buttonPokemon[1] = "blastoise";
       break;
     case 'pichu':
       $("#yellow").switchClass("pichu", "pikachu", 1000);
-      $("#yellow").css("background-image", "url(./images/pikachu.png)");
+      $("#yellow").css("background-image", "url(public/images/pikachu.png)");
       buttonPokemon[2] = "pikachu";
       break;
     case 'pikachu':
       $("#yellow").switchClass("pikachu", "raichu", 1000);
-      $("#yellow").css("background-image", "url(./images/raichu.png)");
+      $("#yellow").css("background-image", "url(public/images/raichu.png)");
       buttonPokemon[2] = "raichu";
       break;
     case 'bulbasaur':
       $("#green").switchClass("bulbasaur", "ivysaur", 1000);
-      $("#green").css("background-image", "url(./images/ivysaur.png)");
+      $("#green").css("background-image", "url(public/images/ivysaur.png)");
       buttonPokemon[3] = "ivysaur";
       break;
     case 'ivysaur':
       $("#green").switchClass("ivysaur", "venusaur", 1000);
-      $("#green").css("background-image", "url(./images/venusaur.png)");
+      $("#green").css("background-image", "url(public/images/venusaur.png)");
       buttonPokemon[3] = "venusaur";
       break;
     default:
@@ -194,10 +194,10 @@ function resetGame() {
   buttonPokemon = ["charmander", "squirtle", "pikachu", "bulbasaur"];
   userClickedPattern = [];
   level = 0;
-  $("#red").css("background-image", "url(./images/charmander.png)");
-  $("#blue").css("background-image", "url(./images/squirtle.png)");
-  $("#yellow").css("background-image", "url(./images/pichu.png)");
-  $("#green").css("background-image", "url(./images/bulbasaur.png)");
+  $("#red").css("background-image", "url(public/images/charmander.png)");
+  $("#blue").css("background-image", "url(public/images/squirtle.png)");
+  $("#yellow").css("background-image", "url(public/images/pichu.png)");
+  $("#green").css("background-image", "url(public/images/bulbasaur.png)");
   $("#red").removeClass("charizard charmeleon charmander").addClass("charmander");
   $("#blue").removeClass("blastoise wartortle squirtle").addClass("squirtle");
   $("#yellow").removeClass("raichu pikachu pichu").addClass("pichu");
