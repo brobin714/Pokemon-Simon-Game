@@ -1,0 +1,125 @@
+body {
+  text-align: center;
+  background-color: #464646;
+  color: #E7E7E6;
+}
+
+#level-title {
+  font-family: 'Press Start 2P', cursive;
+  font-size: 3rem;
+  margin:  5%;
+}
+
+.container {
+  display: block;
+  width: 50%;
+  margin: auto;
+}
+
+.btn {
+  margin: 15px;
+  display: inline-block;
+  height: 200px;
+  width: 200px;
+  border: 10px solid black;
+  border-radius: 20%;
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+
+.image {
+  height: 400px;
+  margin: 5%;
+}
+
+.game-over {
+  background-color: #C04C4B;
+  opacity: 0.9;
+}
+
+.victory {
+  background-color: #E7E7E6;
+  opacity: 0.9;
+  color: #464646;
+}
+
+.red {
+  background-color: red;
+  background-image: url("./images/charmander.png");
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  border-color: #ff9441;
+}
+
+.green {
+  background-color: green;
+  background-image: url("./images/bulbasaur.png");
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  border-color: #399494;
+}
+
+.blue {
+  background-color: blue;
+  background-image: url("./images/squirtle.png");
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  border-color: #5a9ca4;
+}
+
+.yellow {
+  background-color: yellow;
+  background-image: url("./images/pichu.png");
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  border-color: #f6e652;
+}
+
+.pressed {
+  box-shadow: 0 0 10px grey;
+  opacity: 0.5;
+  /*background-color: grey;*/
+}
+
+.evolve {
+  box-shadow: 0 0 40px grey;
+  background-color: white;
+  border-color: grey;
+  opacity: 0.1;
+}
+
+.button {
+  box-shadow: inset 0 1px 0 0 #a6e5d1;
+  background: linear-gradient(to bottom, #4ecca3 5%, #368e72 100%);
+  background-color: #4ecca3;
+  border-radius: 3px;
+  border: 1px solid #276651;
+  display: inline-block;
+  cursor: pointer;
+  color: #E7E7E6;
+  font-family: 'Press Start 2P', cursive;
+  font-size: 3rem;
+  padding: 6px 24px;
+  text-decoration: none;
+  text-shadow: 2px 0 #2e2e2e;
+}
+
+.button:hover {
+  background: linear-gradient(to bottom, #368e72 5%, #4ecca3 100%);
+  background-color: #368e72;
+}
+
+.button:active {
+  position: relative;
+  top: 1px;
+}
+
+.hide {
+    display: none;
+}
